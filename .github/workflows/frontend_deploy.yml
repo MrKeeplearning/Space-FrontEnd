@@ -34,4 +34,4 @@ jobs:
 
       - name: deploy to S3
         run: |
-          aws s3 cp ./dist/spa s3://space-frontend/ --recursive
+          aws s3 sync ./dist/spa s3://space-frontend
