@@ -3,7 +3,8 @@ name: Deploy to AWS S3
 on:
   push:
     branches:
-      - develop
+      - notNow
+#      - develop
 
 jobs:
   # 작업의 이름 지정
