@@ -9,7 +9,8 @@ on:
 # 환경설정
 env:
   # github.actor는 workflow를 실행시킨 유저
-  DOCKER_IMAGE: ghcr.io/${{ github.actor }}/space-frontend
+#  DOCKER_IMAGE: ghcr.io/${{ github.actor }}/space-frontend
+  DOCKER_IMAGE: ghcr.io/space-frontend
   # workflow의 수행을 트리거한 커밋 SHA
   VERSION: ${{ github.sha }}
   NAME: go_cicd
